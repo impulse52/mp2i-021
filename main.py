@@ -169,7 +169,36 @@ def get():
             Article(
                 H3("DS"),
                 P("\n"),
-                P("Trop tard ... plus sur le site de MANSUY", style="padding-left: 30px; padding-right: 30px;")
+                Div(
+                    Div(
+                        H4("Sujets"),
+                            A("DS1", href="/static/DSM/MP2I-DS1.pdf"), Br(),
+                            A("DS2", href="/static/DSM/MP2I-DS2.pdf"), Br(),
+                            A("DS3", href="/static/DSM/MP2I-DS3.pdf"), Br(),
+                            A("DS4", href="/static/DSM/MP2I-DS4.pdf"), Br(),
+                            A("DS5", href="/static/DSM/MP2I-DS5.pdf"), Br(),
+                            A("DS6", href="/static/DSM/MP2I-DS6.pdf"), Br(),
+                            A("DS8", href="/static/DSM/MP2I-DS8.pdf"), Br(),
+                            A("CB1", href="/static/DSM/MP2I-DS9-CB1.pdf"), Br(),
+                            A("CB2", href="/static/DSM/MP2I-DS6-CB2.pdf"), Br(),
+                            A("DS10", href="/static/DSM/MP2I-DS10.pdf"), Br()
+                    ),
+                    Div(
+                        H4("Corrections"),
+                            A("DS1", href="/static/DSM/MP2I-DS1-correction.pdf"), Br(),
+                            A("DS2", href="/static/DSM/MP2I-DS2-correction.pdf"), Br(),
+                            A("DS3", href="/static/DSM/MP2I-DS3-correction.pdf"), Br(),
+                            A("DS4", href="/static/DSM/MP2I-DS4-correction.pdf"), Br(),
+                            A("DS5", href="/static/DSM/MP2I-DS5-correction.pdf"), Br(),
+                            A("DS6", href="/static/DSM/MP2I-DS6-correction.pdf"), Br(),
+                            A("DS8", href="/static/DSM/MP2I-DS8-correction.pdf"), Br(),
+                            A("CB1", href="/static/DSM/MP2I-DS9-CB1-correction.pdf"), Br(),
+                            A("CB2", href="/static/DSM/MP2I-DS6-CB2-correction.pdf"), Br(),
+                            A("DS10", href="/static/DSM/MP2I-DS10-correction.pdf"), Br()
+                    ),
+                    style="padding-left: 30px; padding-right: 30px;",
+                    cls="grid"
+                )
             )
         )
     )
