@@ -5,6 +5,7 @@ app, rt = fast_app()
 @rt('/')
 def get(): 
     return(
+        Title("Mp2i-Carnot021"),
         Main(
             Div( 
                 Title('MP2ICarnot25-26'),
