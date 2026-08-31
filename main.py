@@ -535,7 +535,7 @@ def get():
                     A("Gender", href="https://padlet.com/MissRenault/gender-q8now2iguykdi1jn"), Br(),
                     A("Feeding the world", href="https://padlet.com/MissRenault/feeding-the-world-health-jhh138amd2nn"), Br(),
                     A("Racism", href="https://padlet.com/MissRenault/racism-fhk2l78co4k1"), Br(),
-                    A("Democratiy", href="https://padlet.com/MissRenault/us-democracy-32jx9gg7ojjfy5rw"), Br(),
+                    A("Democracies", href="https://padlet.com/MissRenault/us-democracy-32jx9gg7ojjfy5rw"), Br(),
                     A("Health", href="https://padlet.com/missrenault1/health-cffkcpjpxls39ock"), Br(),
                     A("Work", href="https://padlet.com/missrenault1/work-jpbbwgyimzx0m0mk"), Br(),
                     A("Méthodo concours", href="https://padlet.com/justinehelenarenault/conseils-concours-j1sxuhsbgfzb15dtl"), Br(),
